@@ -217,7 +217,7 @@ LanguageTranslatorV2.prototype.identify = function(params, callback) {
     callback(new Error('Missing required parameters: text'));
     return;
   }
-
+  console.log("running fixed content-type");
   var parameters = {
     options: {
       url: '/v2/identify',
